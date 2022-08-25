@@ -25,8 +25,8 @@ public class ResponseResult {
         return responseResult;
     }
 
-    public ResponseResult addtData(String kry, Object value){
-        data.put(kry, value);
+    public ResponseResult addtData(String key, Object value){
+        data.put(key, value);
         return this;
     }
 }

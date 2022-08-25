@@ -14,3 +14,8 @@ spring:
     url: jdbc:mysql://localhost:3306/payment_practice?serverTimezone=GMT%2B8&characterEncoding=utf-8
     username: root
     password: admin
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/payment/mapper/xml/*.xml
